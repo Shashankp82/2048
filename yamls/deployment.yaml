@@ -13,7 +13,7 @@ spec:
         app: "2048"
     spec:
       containers:
-        - image: shashankpatil82/docker-2048:v.1.2
+        - image: shashankpatil82/docker-2048:v.1.1
           imagePullPolicy: Always
           name: "2048"
           ports:
